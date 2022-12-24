@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#home">
-        <img className="navbar-logo" src="src\assets\images\v_logo.png" />
+        <img className="navbar-logo" src="../assets/images/v_logo.png" />
       </a>
       <HStack spacing={12} className="navbar-items">
         {navItems.map((navItem) => (

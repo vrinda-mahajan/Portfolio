@@ -8,7 +8,7 @@ export const AboutSection = () => {
       <HStack spacing="8rem" className="about-me">
         <img
           className="about-me-img"
-          src="./src/assets/images/profile_img.jpg"
+          src="../assets/images/profile_img.jpg"
         />
         <p className="about-me-content">
           Hi, I am Vrinda Mahajan, a passionate FrontEnd Developer from City of

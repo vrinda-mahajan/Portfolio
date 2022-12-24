@@ -23,7 +23,7 @@ export const SkillSection = () => {
             <img
               className="skill-icon"
               title={skillName}
-              src={`./src/assets/icons/${skillName}.svg`}
+              src={`../assets/icons/${skillName}.svg`}
             />
           </Box>
         ))}

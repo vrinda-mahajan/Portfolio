@@ -38,7 +38,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="React"
-                  src="./src/assets/icons/react.svg"
+                  src="../assets/icons/react.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -58,7 +58,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="CSS 3"
-                  src="./src/assets/icons/css3.svg"
+                  src="../assets/icons/css3.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -101,7 +101,7 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="./src/assets/images/ecommerce.png" />
+        <img className="project-img" src="../assets/images/ecommerce.png" />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -144,7 +144,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="React"
-                  src="./src/assets/icons/react.svg"
+                  src="../assets/icons/react.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -164,7 +164,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="Chakra UI"
-                  src="./src/assets/icons/chakra-ui.svg"
+                  src="../assets/icons/chakra-ui.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -209,7 +209,7 @@ export const ProjectSection = () => {
         </div>
         <img
           className="project-img"
-          src="./src/assets/images/social-media.png"
+          src="../assets/images/social-media.png"
         />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
@@ -247,7 +247,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="HTML"
-                  src="./src/assets/icons/html5.svg"
+                  src="../assets/icons/html5.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -267,7 +267,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="CSS 3"
-                  src="./src/assets/icons/css3.svg"
+                  src="../assets/icons/css3.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -287,7 +287,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="Javascript"
-                  src="./src/assets/icons/javascript.svg"
+                  src="../assets/icons/javascript.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -329,7 +329,7 @@ export const ProjectSection = () => {
         </div>
         <img
           className="project-img"
-          src="./src/assets/images/component-library.png"
+          src="../assets/images/component-library.png"
         />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
@@ -366,7 +366,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="React"
-                  src="./src/assets/icons/react.svg"
+                  src="../assets/icons/react.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -386,7 +386,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="CSS 3"
-                  src="./src/assets/icons/css3.svg"
+                  src="../assets/icons/css3.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -431,7 +431,7 @@ export const ProjectSection = () => {
         </div>
         <img
           className="project-img"
-          src="./src/assets/images/video-library.png"
+          src="../assets/images/video-library.png"
         />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
@@ -465,7 +465,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="React"
-                  src="./src/assets/icons/react.svg"
+                  src="../assets/icons/react.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -485,7 +485,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="Typescript"
-                  src="./src/assets/icons/typescript.svg"
+                  src="../assets/icons/typescript.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -505,7 +505,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="CSS"
-                  src="./src/assets/icons/css3.svg"
+                  src="../assets/icons/css3.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -548,7 +548,7 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="./src/assets/images/quiz.png" />
+        <img className="project-img" src="../assets/images/quiz.png" />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -580,7 +580,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="React"
-                  src="./src/assets/icons/react.svg"
+                  src="../assets/icons/react.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -600,7 +600,7 @@ export const ProjectSection = () => {
                 <img
                   className="tech-icon"
                   title="CSS"
-                  src="./src/assets/icons/css3.svg"
+                  src="../assets/icons/css3.svg"
                 />
                 <TagLabel
                   backgroundColor="primary"
@@ -643,7 +643,7 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="./src/assets/images/flashtype.png" />
+        <img className="project-img" src="../assets/images/flashtype.png" />
       </HStack>
     </div>
   );
