@@ -1,0 +1,54 @@
+.project-section {
+  padding-top: 2rem;
+}
+.project-card {
+  justify-content: center;
+  position: relative;
+  margin-left: 12rem;
+  margin-bottom: 4rem;
+}
+
+.project-desc-container {
+  border-radius: 1rem;
+  box-shadow: #34343933 0px 7px 29px 0px;
+  padding: 3.6rem 3.6rem 2.4rem 4.4rem;
+  width: 60rem;
+}
+.project-desc {
+  width: 38rem;
+  color: var(--chakra-colors-text);
+}
+.project-name {
+  font-weight: 800;
+  padding-bottom: 3rem;
+}
+.project-details {
+  line-height: 2.6rem;
+  letter-spacing: 0.8px;
+}
+.project-card-footer {
+  padding-top: 3.2rem;
+}
+.project-card-footer-btn {
+  transition: 0.2s;
+}
+.project-card-footer-btn:hover {
+  transform: scale(1.04);
+}
+.project-img {
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 52rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 46rem;
+  transition: 0.4s;
+}
+.project-img:hover {
+  transform: translate(0, -50%) scale(1.06);
+}
+.tech-icon {
+  background-color: var(--chakra-colors-primary);
+  width: 1.4rem;
+}

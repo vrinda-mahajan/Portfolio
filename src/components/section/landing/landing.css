@@ -1,0 +1,57 @@
+
+.landing-section {
+  background-color: var(--chakra-colors-background);
+  color: var(--chakra-colors-text);
+  padding: 12rem 12rem 0;
+  margin-bottom: 4rem;
+}
+.landing-content {
+  margin-right: auto;
+}
+.landing-content .name {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.btn-cta {
+  margin: 3.2rem 0 2rem 0;
+  font-size: 2.4rem;
+  transition: 0.2s;
+}
+.btn-cta:hover {
+  transform: scale(1.1);
+}
+.contact-icons {
+  font-size: 4rem;
+  color: var(--chakra-colors-primary);
+}
+.contact-icons:hover {
+  color: var(--chakra-colors-text);
+}
+.landing-demo-code {
+  background-color: var(--chakra-colors-background);
+  border-radius: 1rem;
+  box-shadow: #3a3c3e33 0px 8px 8px;
+  padding: 3.2rem;
+  z-index: 2;
+  font-size: 1.4rem;
+  color: var(--chakra-colors-primary);
+  line-height: 2.8rem;
+}
+.landing-demo-code b {
+  font-size: 1.4rem;
+}
+.landing-img {
+  background-color: var(--chakra-colors-primary);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  width: 32rem;
+  z-index: 2;
+}
+.design {
+  position: absolute;
+  top: -10rem;
+  right: -36rem;
+  background-color: var(--chakra-colors-primary);
+  height: 52rem;
+  width: 68rem;
+  transform: rotate(44deg);
+}

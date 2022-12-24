@@ -1,0 +1,25 @@
+.about-me-section {
+  background-color: var(--chakra-colors-background);
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+}
+.about-me {
+  background-color: var(--chakra-colors-primary);
+  color: white;
+  padding: 6rem 8rem;
+  width: 100%;
+}
+.about-me-img {
+  background-color: var(--chakra-colors-primary);
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 24rem;
+}
+.about-me-content,
+.about-me-content b {
+  background-color: var(--chakra-colors-primary);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 1px;
+}

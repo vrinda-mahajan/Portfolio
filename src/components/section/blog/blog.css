@@ -1,0 +1,34 @@
+.blog-section {
+  margin-bottom: 8rem;
+  padding-top: 2rem;
+}
+.blog-card {
+  width: 32rem;
+  border-radius: 1rem;
+  box-shadow: #34343933 0px 7px 29px 0px;
+  padding: 2rem;
+}
+
+.blog-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+  height: 6rem;
+}
+
+.blog-read-time {
+  color: var(--chakra-colors-primary);
+  margin-bottom: 8px;
+}
+.blog-read-time i {
+  font-size: 1.4rem;
+  margin-right: 4px;
+}
+.blog-content {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}

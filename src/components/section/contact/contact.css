@@ -1,0 +1,36 @@
+.contact-section {
+  margin-bottom: 10rem;
+}
+
+.contact-heading {
+  color: var(--chakra-colors-primary);
+  font-weight: 900;
+  padding: 4rem 8rem 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 3rem;
+}
+.contact-info {
+  overflow: hidden;
+}
+.contact-items {
+  transform: translateY(-10%);
+  animation: floater 1.9s infinite;
+  transition: ease 0.8s;
+  font-size: 8rem;
+  color: var(--chakra-colors-primary);
+}
+.contact-items:hover {
+  color: var(--chakra-colors-text);
+}
+
+@keyframes floater {
+  0% {
+    transform: translateY(-10%);
+    transition: ease 0.5s;
+  }
+  50% {
+    transform: translateY(10%);
+    transition: ease 0.5s;
+  }
+}

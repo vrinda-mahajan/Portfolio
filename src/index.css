@@ -1,0 +1,9 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
