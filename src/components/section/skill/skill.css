@@ -27,3 +27,12 @@
 .skill-icon-bg:hover {
   transform: rotate(45deg) scale(1.1);
 }
+
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .skill-container {
+    padding: 0rem;
+    gap: 4rem;
+}
+}

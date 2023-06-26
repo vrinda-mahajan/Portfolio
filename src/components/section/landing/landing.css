@@ -55,7 +55,7 @@
 @media screen and (max-width: 480px) {
   .landing-section {
     flex-direction: column;
-    padding: 8rem 3rem;
+    padding: 8rem 3rem 2rem;
     margin-bottom: 0rem;
   }
   .design {

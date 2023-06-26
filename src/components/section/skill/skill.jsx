@@ -1,4 +1,4 @@
-import { Box, HStack, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Text } from "@chakra-ui/react";
 import "./skill.css";
 
 export const SkillSection = () => {
@@ -17,7 +17,7 @@ export const SkillSection = () => {
   return (
     <div id="skills" className="skill-section">
       <Text className="bold-heading">My Skillsets</Text>
-      <HStack className="skill-container">
+      <Flex className="skill-container">
         {skillsInfo.map((skillName) => (
           <Box className="skill-icon-bg">
             <img
@@ -27,7 +27,7 @@ export const SkillSection = () => {
             />
           </Box>
         ))}
-      </HStack>
+      </Flex>
     </div>
   );
 };

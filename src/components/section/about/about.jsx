@@ -1,18 +1,18 @@
-import { HStack, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import "./about.css";
 
 export const AboutSection = () => {
   return (
     <div id="about" className="about-me-section">
       <Text className="bold-heading">About me</Text>
-      <HStack spacing="8rem" className="about-me">
+      <Flex align="center" className="about-me">
         <img
           className="about-me-img"
           src="../assets/images/profile_img.jpg"
         />
         <p className="about-me-content">
           Hi, I am Vrinda Mahajan, a passionate FrontEnd Developer from City of
-          Temples Jammu, India currently studying in my pre-final year. I am
+          Temples Jammu, India currently studying in my final year. I am
           very much passionate about Web Technologies and proficient in{" "}
           <b>React, CSS & JavaScript</b>.<br />
           <br />I enjoy the challenges of creating something new from scratch
@@ -20,7 +20,7 @@ export const AboutSection = () => {
           forward to gain some real world experience through internships and
           Open Source.
         </p>
-      </HStack>
+      </Flex>
     </div>
   );
 };

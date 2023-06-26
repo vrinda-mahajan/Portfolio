@@ -8,7 +8,8 @@
   background-color: var(--chakra-colors-primary);
   color: white;
   padding: 6rem 8rem;
-  width: 100%;
+  gap: 8rem;
+  /* width: 100%; */
 }
 .about-me-img {
   background-color: var(--chakra-colors-primary);
@@ -22,4 +23,20 @@
   font-size: 1.4rem;
   line-height: 2.4rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .about-me-section{
+    margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 0rem;
+  }
+  .about-me{
+    flex-direction: column;
+    padding: 3rem 4rem;
+    gap: 4rem;
+    text-align: center;
+  }
 }

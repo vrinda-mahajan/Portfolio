@@ -11,6 +11,8 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLORA SHOP
             </Text>
+            <img className="project-img" src="../assets/images/ecommerce.png" />
+
             <Text className="project-details" fontSize="2xl">
               FloraShop is an{" "}
               <Text fontSize="2xl" as="b">
@@ -101,7 +103,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="../assets/images/ecommerce.png" />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -109,6 +110,10 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLORA TALK
             </Text>
+            <img
+              className="project-img"
+              src="../assets/images/social-media.png"
+            />
             <Text className="project-details" fontSize="2xl">
               Flora Talk is a{" "}
               <Text fontSize="2xl" as="b">
@@ -207,10 +212,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img
-          className="project-img"
-          src="../assets/images/social-media.png"
-        />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -218,6 +219,10 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLORA UI
             </Text>
+            <img
+              className="project-img"
+              src="../assets/images/component-library.png"
+            />
             <Text className="project-details" fontSize="2xl">
               Flora UI is an open-source{" "}
               <Text fontSize="2xl" as="b">
@@ -327,10 +332,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img
-          className="project-img"
-          src="../assets/images/component-library.png"
-        />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -338,6 +339,10 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLORA FACTORY
             </Text>
+            <img
+              className="project-img"
+              src="../assets/images/video-library.png"
+            />
             <Text className="project-details" fontSize="2xl">
               FloraFactory is a{" "}
               <Text fontSize="2xl" as="b">
@@ -429,10 +434,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img
-          className="project-img"
-          src="../assets/images/video-library.png"
-        />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -440,6 +441,7 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLORA TALK
             </Text>
+            <img className="project-img" src="../assets/images/quiz.png" />
             <Text className="project-details" fontSize="2xl">
               FloraQuiz is a{" "}
               <Text fontSize="2xl" as="b">
@@ -484,26 +486,6 @@ export const ProjectSection = () => {
               >
                 <img
                   className="tech-icon"
-                  title="Typescript"
-                  src="../assets/icons/typescript.svg"
-                />
-                <TagLabel
-                  backgroundColor="primary"
-                  color="white"
-                  paddingLeft="0.4rem"
-                >
-                  Typescript
-                </TagLabel>
-              </Tag>
-              <Tag
-                size="lg"
-                padding="0.3rem 1.2rem"
-                fontSize="1.8rem"
-                backgroundColor="primary"
-                borderRadius="full"
-              >
-                <img
-                  className="tech-icon"
                   title="CSS"
                   src="../assets/icons/css3.svg"
                 />
@@ -515,6 +497,27 @@ export const ProjectSection = () => {
                   CSS
                 </TagLabel>
               </Tag>
+              <Tag
+                size="lg"
+                padding="0.3rem 1.2rem"
+                fontSize="1.8rem"
+                backgroundColor="primary"
+                borderRadius="full"
+              >
+                <img
+                  className="tech-icon"
+                  title="Typescript"
+                  src="../assets/icons/typescript.svg"
+                />
+                <TagLabel
+                  backgroundColor="primary"
+                  color="white"
+                  paddingLeft="0.4rem"
+                >
+                  Typescript
+                </TagLabel>
+              </Tag>
+              
             </HStack>
             <HStack spacing={6} className="project-card-footer">
               <a
@@ -548,7 +551,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="../assets/images/quiz.png" />
       </HStack>
       <HStack className="project-card" justifyContent="flex-start">
         <div className="project-desc-container">
@@ -556,6 +558,7 @@ export const ProjectSection = () => {
             <Text className="project-name" fontSize="4xl">
               FLASHTYPE
             </Text>
+            <img className="project-img" src="../assets/images/flashtype.png" />
             <Text className="project-details" fontSize="2xl">
               Flashtype is a{" "}
               <Text fontSize="2xl" as="b">
@@ -643,7 +646,6 @@ export const ProjectSection = () => {
             </HStack>
           </div>
         </div>
-        <img className="project-img" src="../assets/images/flashtype.png" />
       </HStack>
     </div>
   );

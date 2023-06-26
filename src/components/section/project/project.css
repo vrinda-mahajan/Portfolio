@@ -52,3 +52,34 @@
   background-color: var(--chakra-colors-primary);
   width: 1.4rem;
 }
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .project-card {
+    justify-content: center;
+    position: relative;
+    margin: 3rem;
+  }
+  .project-desc-container {
+    padding: 2rem;
+    width: 32rem;
+  }
+  .project-name {
+    padding-bottom: 1.6rem;
+  }
+  .project-desc {
+    width: fit-content;
+  }
+  .project-img {
+    position: static;
+    transform: none;
+    transition: none;
+    margin-bottom: 1.6rem;
+  }
+  .project-img:hover {
+    transform: none;
+  }
+  .tech-section {
+    flex-wrap: wrap;
+  }
+}
