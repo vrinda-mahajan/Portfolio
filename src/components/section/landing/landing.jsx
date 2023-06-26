@@ -25,17 +25,17 @@ export const LandingSection = () =>{
               </Button>
             </a>
             <HStack spacing={14} className="landing-contacts">
-              <a class="contact-icons" href="https://github.com/vrinda-mahajan">
+              <a className="contact-icons" href="https://github.com/vrinda-mahajan">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                class="contact-icons"
+                className="contact-icons"
                 href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
-                class="contact-icons"
+                className="contact-icons"
                 href="https://twitter.com/vrinda_mahajan"
               >
                 <i className="fa-brands fa-twitter"></i>

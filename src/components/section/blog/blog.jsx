@@ -29,8 +29,8 @@ export const BlogSection = () => {
     <div id="blogs" className="blog-section">
       <Text className="bold-heading">My Blogs</Text>
       <Flex className="blog-container" justifyContent="center">
-        {blogInfo.map((blog)=>
-        <div className="blog-card">
+        {blogInfo.map((blog,index)=>
+        <div key={index} className="blog-card">
         <a
           target="_blank"
           href={blog.link}
@@ -38,7 +38,7 @@ export const BlogSection = () => {
           <Text className="blog-heading">{blog.name}</Text>
         </a>
         <Text className="blog-read-time" fontSize="xl">
-          <i class="fa-solid fa-clock"></i>{blog.time} min read
+          <i className="fa-solid fa-clock"></i>{blog.time} min read
         </Text>
         <Text className="blog-content">
           {blog.content}

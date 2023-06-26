@@ -18,8 +18,8 @@ export const SkillSection = () => {
     <div id="skills" className="skill-section">
       <Text className="bold-heading">My Skillsets</Text>
       <Flex className="skill-container">
-        {skillsInfo.map((skillName) => (
-          <Box className="skill-icon-bg">
+        {skillsInfo.map((skillName,index) => (
+          <Box key={index} className="skill-icon-bg">
             <img
               className="skill-icon"
               title={skillName}

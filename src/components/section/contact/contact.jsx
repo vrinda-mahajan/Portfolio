@@ -28,8 +28,8 @@ export const ContactSection = () => {
     <div id="contact" className="contact-section">
       <Text className="contact-heading">Contact me</Text>
       <HStack justifyContent="center" className="contact-info">
-        {contactInfo.map((contact) => (
-          <a class="contact-items" href={contact.link}>
+        {contactInfo.map((contact,index) => (
+          <a key={index} className="contact-items" href={contact.link}>
             <i className={contact.iconClass}></i>
           </a>
         ))}

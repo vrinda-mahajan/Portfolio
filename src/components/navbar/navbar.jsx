@@ -31,8 +31,8 @@ export const Navbar = () => {
         <img className="navbar-logo" src="../assets/images/v_logo.png" />
       </a>
       <HStack spacing={12} className="navbar-items">
-        {navItems.map((navItem) => (
-          <Link href={navItem.id}>
+        {navItems.map((navItem,index) => (
+          <Link key={index} href={navItem.id}>
             <Text className="nav-item" fontSize="2xl">
               {navItem.name}
             </Text>
@@ -53,8 +53,8 @@ export const Navbar = () => {
           </DrawerHeader>
           <DrawerBody>
             <VStack spacing={12} className="drawer-items" align="flex-start">
-              {navItems.map((navItem) => (
-                <Link onClick={onClose} href={navItem.id}>
+              {navItems.map((navItem,index) => (
+                <Link key={index} onClick={onClose} href={navItem.id}>
                   <Text className="drawer-item" fontSize="2xl">
                     {navItem.name}
                   </Text>
