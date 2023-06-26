@@ -11,7 +11,7 @@ export const Navbar = () => {
   ];
   return (
     <nav className="navbar">
-      <a href="#home">
+      <a href="/">
         <img className="navbar-logo" src="../assets/images/v_logo.png" />
       </a>
       <HStack spacing={12} className="navbar-items">
