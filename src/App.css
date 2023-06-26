@@ -8,7 +8,6 @@
   font-size: 62.5%;
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--chakra-colors-background);
 }
 
 ::-webkit-scrollbar {
@@ -33,4 +32,5 @@
 .portfolio-main {
   overflow-x: hidden;
   position: relative;
+  background-color: var(--chakra-colors-background);
 }

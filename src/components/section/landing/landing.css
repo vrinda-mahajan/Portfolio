@@ -1,4 +1,3 @@
-
 .landing-section {
   background-color: var(--chakra-colors-background);
   color: var(--chakra-colors-text);
@@ -7,6 +6,7 @@
 }
 .landing-content {
   margin-right: auto;
+  z-index: 2;
 }
 .landing-content .name {
   font-size: 4rem;
@@ -40,12 +40,6 @@
 .landing-demo-code b {
   font-size: 1.4rem;
 }
-.landing-img {
-  background-color: var(--chakra-colors-primary);
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  width: 32rem;
-  z-index: 2;
-}
 .design {
   position: absolute;
   top: -10rem;
@@ -54,4 +48,23 @@
   height: 52rem;
   width: 68rem;
   transform: rotate(44deg);
+  z-index: 0;
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .landing-section {
+    flex-direction: column;
+    padding: 8rem 3rem;
+    margin-bottom: 0rem;
+  }
+  .design {
+    top: -13rem;
+    right: -52rem;
+    height: 58rem;
+  }
+  .landing-demo-code {
+    margin-top: 6rem;
+    padding: 2.4rem;
+  }
 }

@@ -1,9 +1,9 @@
-import { Button, HStack, Text } from "@chakra-ui/react"
+import { Button, Flex, HStack, Text } from "@chakra-ui/react"
 import "./landing.css"
 
 export const LandingSection = () =>{
     return(
-        <HStack className="landing-section">
+        <Flex className="landing-section">
           <div className="landing-content">
             <Text fontSize="2xl">Hello, I'm </Text>
             <Text className="name" fontSize="4xl">
@@ -57,6 +57,6 @@ export const LandingSection = () =>{
             <br />
           </div>
           <div className="design"></div>
-        </HStack>
+        </Flex>
     )
 }
