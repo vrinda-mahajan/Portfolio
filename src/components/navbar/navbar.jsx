@@ -1,7 +1,23 @@
-import { HStack, Link, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Drawer,
+  DrawerBody,
+  DrawerContent,
+  DrawerHeader,
+  DrawerOverlay,
+  HStack,
+  Icon,
+  IconButton,
+  Link,
+  Text,
+  VStack,
+  useDisclosure,
+} from "@chakra-ui/react";
+import { ArrowRightIcon, ArrowLeftIcon } from "@chakra-ui/icons";
 import "./navbar.css";
 
 export const Navbar = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const navItems = [
     { name: "About", id: "#about" },
     { name: "Skills", id: "#skills" },
@@ -23,6 +39,31 @@ export const Navbar = () => {
           </Link>
         ))}
       </HStack>
+      <Icon id="drawer-icon" as={ArrowRightIcon} boxSize={6} onClick={onOpen} />
+      <Drawer
+        placement="right"
+        onClose={onClose}
+        isOpen={isOpen}
+        className="drawer"
+      >
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerHeader borderBottomWidth="1px">
+            <Icon onClick={onClose} as={ArrowLeftIcon} boxSize={6} />
+          </DrawerHeader>
+          <DrawerBody>
+            <VStack spacing={12} className="drawer-items" align="flex-start">
+              {navItems.map((navItem) => (
+                <Link onClick={onClose} href={navItem.id}>
+                  <Text className="drawer-item" fontSize="2xl">
+                    {navItem.name}
+                  </Text>
+                </Link>
+              ))}
+            </VStack>
+          </DrawerBody>
+        </DrawerContent>
+      </Drawer>
     </nav>
   );
 };

@@ -24,7 +24,17 @@
 .navbar-items .nav-item:hover {
   color: #000;
 }
-
+#drawer-icon {
+  display: none;
+  margin-right: 2rem;
+  color: #3f72af;
+}
+.drawer-items {
+  margin-top: 2rem;
+}
+.drawer-item {
+  color: #3f72af;
+}
 @media screen and (max-width: 786px) {
 }
 @media screen and (max-width: 480px) {
@@ -33,5 +43,8 @@
   }
   .navbar-logo {
     margin-left: 2rem;
+  }
+  #drawer-icon {
+    display: block;
   }
 }
