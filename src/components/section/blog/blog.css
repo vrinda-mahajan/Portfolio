@@ -2,6 +2,9 @@
   margin-bottom: 8rem;
   padding-top: 2rem;
 }
+.blog-container{
+  gap: 4rem;
+}
 .blog-card {
   width: 32rem;
   border-radius: 1rem;
@@ -31,4 +34,15 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
+}
+
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .blog-section{
+    padding: 0;
+  }
+  .blog-container{
+    flex-wrap: wrap;
+  }
 }

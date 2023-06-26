@@ -1,4 +1,4 @@
-import { HStack, Text } from "@chakra-ui/react";
+import { Flex, HStack, Text } from "@chakra-ui/react";
 import "./blog.css";
 
 export const BlogSection = () => {
@@ -28,7 +28,7 @@ export const BlogSection = () => {
   return (
     <div id="blogs" className="blog-section">
       <Text className="bold-heading">My Blogs</Text>
-      <HStack spacing={16} justifyContent="center">
+      <Flex className="blog-container" justifyContent="center">
         {blogInfo.map((blog)=>
         <div className="blog-card">
         <a
@@ -45,7 +45,7 @@ export const BlogSection = () => {
         </Text>
       </div>
         )}
-      </HStack>
+      </Flex>
     </div>
   );
 };

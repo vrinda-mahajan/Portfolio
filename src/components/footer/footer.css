@@ -1,18 +1,31 @@
-.footer {  
-    background-color: var(--chakra-colors-primary);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+.footer {
+  background-color: var(--chakra-colors-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 .footer-logo {
-    background-color: var(--chakra-colors-primary);
-    width: 3.8rem;
-    height: 3.8rem;
-    margin-left: 6rem;
+  background-color: var(--chakra-colors-primary);
+  width: 3.8rem;
+  height: 3.8rem;
+  margin-left: 6rem;
 }
 .footer-content {
-    background-color: var(--chakra-colors-primary);
-    color: white;
-    margin-right: 6rem;
+  background-color: var(--chakra-colors-primary);
+  color: white;
+  margin-right: 6rem;
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+  .footer-logo {
+    margin-left: 2rem;
+  }
+  .footer-content {
+    margin-right: 0;
+  }
 }

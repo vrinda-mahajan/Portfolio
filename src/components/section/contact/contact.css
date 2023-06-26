@@ -11,7 +11,8 @@
   font-size: 3rem;
 }
 .contact-info {
-  overflow: hidden;
+  gap: 10rem;
+  flex-wrap: wrap;
 }
 .contact-items {
   transform: translateY(-10%);
@@ -32,5 +33,12 @@
   50% {
     transform: translateY(10%);
     transition: ease 0.5s;
+  }
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 480px) {
+  .contact-info{
+    gap: 2rem;
   }
 }
